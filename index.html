@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blackjack-vite</title>
+  </head>
+  <body>
+    <header class="title">Blackjack</header>
+    <div class="buttonsContainer">
+      <button class="btn btnNewGame">New Game</button>
+      <button class="btn btnHitMe">Hit me!</button>
+      <button class="btn btnStop">Stop</button>
+    </div>
+    <div class="gameContainer">
+      <div class="playerContainer topContainer">
+        <p class="playerName">Player 1 - <span class="playerScoreHtml">0</span></p>
+        <div class="playerCards">
+          <!-- <img class="card" src="assets/cards/10C.png" alt="poker card"> Check: createDeck.js -->
+        </div>
+      </div>
+      <div class="playerContainer">
+        <p class="playerName">Computer - <span class="computerScoreHtml">0</span></p>
+        <div class="comCards">
+          <!-- <img class="card" src="assets/cards/10C.png" alt="poker card"> Check: createDeck.js -->
+        </div>
+      </div>
+    </div>
+    <script type="module" src="./main.js"></script>
+
+  </body>
+</html>
