@@ -2,6 +2,9 @@
 
 An interactive, fast-paced Blackjack game built with modern JavaScript and Vite. Players can challenge the computer dealer, track scores in real time, and enjoy a dynamic card-dealing visual experience.
 
+[![Live Demo](https://img.shields.io/badge/demo-online-brightgreen?style=for-the-badge)](https://blackjack-ajdev.netlify.app/)
+[![GitHub Repository](https://img.shields.io/badge/github-repo-black?style=for-the-badge&logo=github)](https://github.com/ArmandoJimenez-dev/blackjack-js.git)
+
 ## ✨ Technologies
 
 - JavaScript (ES6+)
